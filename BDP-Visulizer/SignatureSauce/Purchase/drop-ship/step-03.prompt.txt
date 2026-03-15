@@ -1,0 +1,39 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: This is Step 3 of the "Drop Ship" process in Inecta Food ERP.
+
+
+COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
+Company: Signature Sauces | Industry: Specialty Food Manufacturing
+Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
+Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
+Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
+RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
+RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
+RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
+RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
+RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
+Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
+Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
+Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+
+CONTENT TO VISUALIZE:
+In many food trading scenarios, you need all three documents connected: the Purchase Order to the farm, the Sales Order to the restaurant, and a Transportation Order for the refrigerated truck. Inecta's "Connect to PO, SO, TO" function links all three documents for complete shipment tracking. From the Sales Order, purchasing managers can quickly create both POs and TOs using the auto-generation setup. You configure a Default TO Template Code for standard freight charges, specify whether to assign the TO to the Sales Order or the Purchase Order, and choose whether to create POs for drop shipment lines only or all lines. The "Keep Drop Shipment Link for Auto PO" setting preserves the standard BC drop shipment functionality.
+
+REQUIREMENTS:
+- TITLE at top: "Drop Ship - Step 3" in large bold text
+- Show the KEY CONCEPT of this step as a CLEAR VISUAL DIAGRAM
+- Use BOXES, ARROWS, LABELS to illustrate the process/concept described
+- Include specific details mentioned (document names, field names, amounts, etc.)
+- If the text mentions a flow or sequence, show it as connected steps
+- If the text mentions a comparison, show it as side-by-side panels
+- If the text mentions data/fields, show them as a card or table
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-03-15T19:18:25.857Z",
+  "company": "Signature Sauces",
+  "product": "Cherry Balsamic BBQ Sauce",
+  "cdnBase": "https://dynaapi.netlify.app",
+  "cdnPath": "BDP-Visulizer/SignatureSauce/Purchase",
+  "visualizers": {
+    "simple-purchase": {
+      "steps": 14,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-06.png"
+        },
+        "step-07": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-07.png"
+        },
+        "step-08": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-08.png"
+        },
+        "step-09": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-09.png"
+        },
+        "step-10": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-10.png"
+        },
+        "step-11": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-11.png"
+        },
+        "step-12": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-12.png"
+        },
+        "step-13": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-13.png"
+        }
+      }
+    }
+  }
+}
