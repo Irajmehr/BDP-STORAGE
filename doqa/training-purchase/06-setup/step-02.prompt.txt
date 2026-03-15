@@ -1,0 +1,49 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces imports Balsamic Vinegar from Italy. The imported vinegar has a 6.4% customs duty. This diagram shows how duty adds to landed cost via Item Charges in BC.
+
+CONTENT TO VISUALIZE:
+COMPARISON — Two Items, Different COO:
+
+DOMESTIC (RM-1050 Tomato Ketchup, USA):
+- Purchase Price: $1.45/KG
+- Duty: 0% (domestic)
+- Freight: ~$1.04/KG
+- Landed Cost: $2.49/KG
+
+IMPORT (RM-1053 Balsamic Vinegar, Italy):
+- Purchase Price: $6.20/KG
+- Duty: 6.4% = $0.40/KG
+- Freight: ~$1.56/KG (ocean + customs)
+- Landed Cost: $8.16/KG
+
+FLOW for Import:
+1. PO Receipt → ILE: Direct Cost = $6.20/KG
+2. Duty Invoice (Item Charge) → Value Entry: +$0.40/KG
+3. Freight Invoice (from TPO) → Value Entry: +$1.56/KG
+4. TOTAL Landed Cost = $8.16/KG
+
+VALUE ENTRY LAYERS (stacked bar):
+| Layer | Amount |
+| Direct Cost | $6.20 |
+| Customs Duty (6.4%) | $0.40 |
+| Ocean Freight | $1.10 |
+| Customs Brokerage | $0.19 |
+| Handling | $0.18 |
+| Insurance | $0.09 |
+| LANDED COST | $8.16 |
+
+REQUIREMENTS:
+- TITLE at top: "Landed Cost — Domestic vs. Import" in large bold text
+- Side-by-side comparison: Ketchup (simple) vs. Vinegar (complex)
+- Stacked bar chart showing cost layers for the vinegar
+- Red callout: "Duty rate depends on Country of Origin — tracked via Lot Attributes"
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

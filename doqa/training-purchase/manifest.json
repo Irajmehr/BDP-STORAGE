@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-03-15T18:35:25.341Z",
+  "company": "Signature Sauces",
+  "product": "Cherry Balsamic BBQ Sauce",
+  "cdnBase": "https://dynaapi.netlify.app",
+  "categories": {
+    "01-po-creation": {
+      "title": "Purchase Order Creation",
+      "testCaseRange": "TC-01 to TC-04",
+      "images": {
+        "step-01": {
+          "title": "Cherry Balsamic BBQ Sauce — Ingredient Purchase Map",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/01-po-creation/step-01.png",
+          "promptLength": 1702,
+          "generated": true
+        },
+        "step-02": {
+          "title": "UOM Conversion — Balsamic Vinegar DRUM to KG",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/01-po-creation/step-02.png",
+          "promptLength": 1516,
+          "generated": true
+        },
+        "step-03": {
+          "title": "Catch-Weight Receipt — Tomato Ketchup Drums",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/01-po-creation/step-03.png",
+          "promptLength": 1701,
+          "generated": true
+        }
+      }
+    },
+    "02-warehouse": {
+      "title": "Warehouse Documents & Receiving",
+      "testCaseRange": "TC-05 to TC-10",
+      "images": {
+        "step-01": {
+          "title": "Cold Storage Warehouse Receipt — IQF Cherries",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/02-warehouse/step-01.png",
+          "promptLength": 1621,
+          "generated": true
+        },
+        "step-02": {
+          "title": "Partial Receipt & Backorder — Split Shipment",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/02-warehouse/step-02.png",
+          "promptLength": 1443,
+          "generated": true
+        }
+      }
+    },
+    "03-item-setup": {
+      "title": "Item Setup & Traceability",
+      "testCaseRange": "TC-11 to TC-13",
+      "images": {
+        "step-01": {
+          "title": "Item Card — Chipotle Powder UOM Hierarchy",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/03-item-setup/step-01.png",
+          "promptLength": 1451,
+          "generated": true
+        },
+        "step-02": {
+          "title": "Lot Attribute Matrix — 5 Ingredients × 5 Groupings",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/03-item-setup/step-02.png",
+          "promptLength": 1697,
+          "generated": true
+        }
+      }
+    },
+    "04-tms": {
+      "title": "Transportation Orders / TMS",
+      "testCaseRange": "TC-14 to TC-24",
+      "images": {
+        "step-01": {
+          "title": "TPO Lifecycle — Ketchup Drums from California",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/04-tms/step-01.png",
+          "promptLength": 1633,
+          "generated": true
+        },
+        "step-02": {
+          "title": "Multi-Vendor TPO Invoice — Balsamic Import",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/04-tms/step-02.png",
+          "promptLength": 1571,
+          "generated": true
+        },
+        "step-03": {
+          "title": "TPO Template → Vendor Default → Auto-Populate",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/04-tms/step-03.png",
+          "promptLength": 1606,
+          "generated": true
+        }
+      }
+    },
+    "05-drop-ship": {
+      "title": "Drop Shipments",
+      "testCaseRange": "TC-25",
+      "images": {
+        "step-01": {
+          "title": "Drop Shipment — Worcestershire Sauce to Co-Pack Customer",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/05-drop-ship/step-01.png",
+          "promptLength": 1837,
+          "generated": true
+        },
+        "step-02": {
+          "title": "Drop Shipment Data Flow — SO ↔ PO Link",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/05-drop-ship/step-02.png",
+          "promptLength": 1639,
+          "generated": true
+        }
+      }
+    },
+    "06-setup": {
+      "title": "Setup & Configuration",
+      "testCaseRange": "TC-26 to TC-30",
+      "images": {
+        "step-01": {
+          "title": "Purchase Pricing Tiers — Cane Sugar from Domino Foods",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/06-setup/step-01.png",
+          "promptLength": 1640,
+          "generated": true
+        },
+        "step-02": {
+          "title": "Import Duty & Landed Cost — Italian Balsamic Vinegar",
+          "cdnUrl": "https://dynaapi.netlify.app/doqa/training-purchase/06-setup/step-02.png",
+          "promptLength": 1779,
+          "generated": true
+        }
+      }
+    }
+  }
+}

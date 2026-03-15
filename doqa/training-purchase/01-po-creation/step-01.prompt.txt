@@ -1,0 +1,29 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces purchases 18 raw materials for their Cherry Balsamic BBQ Sauce (500 KG batch). This diagram maps which ingredients use which type of Purchase Order.
+
+CONTENT TO VISUALIZE:
+Show the BBQ Sauce recipe as a central product, with 18 ingredients branching outward, grouped by PO type:
+
+SIMPLE PO (base UOM only): Water, Brown Sugar, Molasses, Onion, Garlic, Sea Salt, Rice Starch
+ALT UOM PO (purchased in drums/cases): Balsamic Vinegar (DRUM→KG), Cherry Juice (PAIL→KG), Olive Oil (TIN→KG)
+LOT-TRACKED PO: Tomato Ketchup (DRUM, catch-weight, USDA Grade A), Sweet Cherries (CASE, Organic), Chipotle Powder (BOX, heat grading)
+VENDOR CATALOG PO: Worcestershire Sauce (Lea & Perrins LP-WORC-1L-CS12)
+IMPORT PO (with duty): Balsamic Vinegar from Italy (6.4% duty)
+
+Show each ingredient with its Item No. (RM-XXXX), vendor name, and the % of batch it represents.
+
+REQUIREMENTS:
+- TITLE at top: "Signature Sauces — Purchase Order Types by Ingredient" in large bold text
+- Central icon: BBQ Sauce bottle labeled "Cherry Balsamic BBQ Sauce — 500 KG Batch"
+- 4 quadrants around it for each PO type, color-coded
+- Each ingredient shown as a small card with RM number and vendor
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

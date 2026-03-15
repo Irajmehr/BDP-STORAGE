@@ -1,0 +1,42 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: This diagram shows the data flow between the Sales Order and Purchase Order in a drop shipment, and how posting the PO auto-ships the SO.
+
+CONTENT TO VISUALIZE:
+TWO DOCUMENTS SIDE BY SIDE:
+
+LEFT — Sales Order (SO-1055):
+- Customer: Metro Grill
+- Item: RM-1066 Worcestershire Sauce
+- Qty: 20 CASE
+- Purchasing Code: DROP SHIP ← highlighted
+- After PO posting: Qty. Shipped = 20 (auto)
+
+RIGHT — Purchase Order (PO-2088):
+- Vendor: Lea & Perrins (V-2060)
+- Item: RM-1066 (populated from SO via "Get Sales Orders")
+- Qty: 20 CASE
+- Ship-To: Metro Grill address
+- After posting: Qty. Received = 20
+
+LINKED by bidirectional arrows showing: Sales Order No. ← → Purchase Order No.
+
+BELOW: Item Ledger Entries:
+Entry 1: Type=Purchase, Qty=+20 CASE (receipt from Lea & Perrins)
+Entry 2: Type=Sale, Qty=-20 CASE (shipment to Metro Grill)
+NET = 0 (zero inventory at Signature Sauces)
+
+REQUIREMENTS:
+- TITLE at top: "Drop Shipment Data Flow — SO ↔ PO" in large bold text
+- Two document cards side by side with linking arrows
+- ILE entries shown below with green (+) and red (-) quantities
+- Zero net highlighted in a callout box
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

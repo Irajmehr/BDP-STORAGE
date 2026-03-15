@@ -1,0 +1,40 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces creates a reusable TPO template "IMPORT-EU" for all European imports. This template is assigned to Acetaia di Modena as their default, so every PO auto-generates a TPO with pre-filled charges.
+
+CONTENT TO VISUALIZE:
+THREE-STEP FLOW:
+
+STEP 1 — CREATE TEMPLATE "IMPORT-EU":
+- Ocean Freight: $2,200
+- Customs Brokerage: $350
+- Insurance: $120
+- Handling: $200
+- Total Default: $2,870
+
+STEP 2 — ASSIGN TO VENDOR:
+Vendor Card: Acetaia di Modena (V-2030)
+→ Shipping FastTab → TPO Template = IMPORT-EU
+
+STEP 3 — AUTO-POPULATE ON PO:
+New PO for Vinegar → Release → Generate TPO
+→ 4 charges auto-fill from template
+→ Modify amounts to actual invoice values
+
+CALLOUT: "Template saves data entry. Charges start as estimates, updated to actuals when carrier invoices arrive."
+
+REQUIREMENTS:
+- TITLE at top: "TPO Template → Vendor Default → Auto-Populate" in large bold text
+- Show as 3 connected panels left to right
+- Template shown as a blueprint/document icon
+- Vendor card shown with the template field highlighted
+- PO/TPO shown with charges auto-filled (green checkmarks)
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

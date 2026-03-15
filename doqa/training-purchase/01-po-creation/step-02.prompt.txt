@@ -1,0 +1,38 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces purchases Balsamic Vinegar (RM-1053) from Acetaia di Modena in 50L drums, but tracks inventory in KG. This diagram shows how alternate UOM conversion works on a Purchase Order.
+
+CONTENT TO VISUALIZE:
+LEFT SIDE — "What You Order":
+- PO Line: Item RM-1053 Balsamic Vinegar
+- Quantity: 4
+- Unit of Measure: DRUM (50 KG each)
+- Direct Unit Cost: $310.00 per DRUM
+- Line Amount: $1,240.00
+
+ARROW pointing RIGHT with label "BC Auto-Converts"
+
+RIGHT SIDE — "What BC Records":
+- Quantity (Base): 200 KG (4 × 50)
+- Item Ledger Entry: 200 KG
+- Cost per Unit: $6.20/KG ($1,240 ÷ 200)
+- Inventory shows: 200 KG (not 4 DRUM)
+
+BOTTOM: Table showing Item UOM setup:
+| UOM | Qty per Base | Description |
+| KG | 1 | Base unit |
+| DRUM | 50 | 50L drum (~50 KG) |
+
+REQUIREMENTS:
+- TITLE at top: "ALT UOM Conversion — Balsamic Vinegar (RM-1053)" in large bold text
+- Show the conversion as a clear left-to-right flow
+- Highlight the key insight: "ILE always stores BASE UOM" in a red callout box
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

@@ -1,0 +1,33 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces tracks lot attributes for 5 key ingredients. Each ingredient demonstrates a different attribute grouping for training purposes.
+
+CONTENT TO VISUALIZE:
+MATRIX TABLE:
+
+| Ingredient | COO | Certification | Dates | Quality | Brand |
+|------------|-----|---------------|-------|---------|-------|
+| RM-1050 Tomato Ketchup | USA | USDA Grade A | Prod + Expiry | — | Heinz Industrial |
+| RM-1051 Sweet Cherries | USA (Oregon) | Organic | Harvest + Expiry | — | — |
+| RM-1053 Balsamic Vinegar | Italy | Modena IGP | Production | Aged 3yr | Acetaia |
+| RM-1010 Cane Sugar | Brazil | Fair Trade | — | Grade A | — |
+| RM-1065 Chipotle Powder | Mexico | — | Harvest | Heat: Medium | — |
+
+HIGHLIGHT: Each row emphasizes a different attribute "grouping" — one focuses on origin, another on certification, another on quality grades, etc.
+
+BOTTOM: Show a Lot No. Information Card with these fields filled in for the Balsamic Vinegar example.
+
+REQUIREMENTS:
+- TITLE at top: "Lot Attributes — 5 Ingredients × 5 Groupings" in large bold text
+- Show the matrix as a color-coded table
+- Each column header in a different color
+- Filled cells highlighted, empty cells grayed out
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

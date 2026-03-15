@@ -1,0 +1,33 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces receives Tomato Ketchup (RM-1050) in 55-gallon drums. Each drum has a nominal weight of 245 KG but actual weight varies (240-250 KG). This is a "catch-weight" scenario in Business Central.
+
+CONTENT TO VISUALIZE:
+TOP: "PO for 2 DRUM Tomato Ketchup (RM-1050) — Catch Weight"
+
+FLOW:
+1. ORDER: 2 DRUM × 245 KG nominal = 490 KG expected, Cost: 2 × $355.25 = $710.50
+2. RECEIVE: Drum 1 weighed at 243.7 KG, Drum 2 weighed at 246.2 KG
+3. ACTUAL TOTAL: 489.9 KG received (vs. 490 KG ordered)
+4. INVOICE: Priced at $1.45/KG × 489.9 KG = $710.36 (not $710.50)
+
+BOTTOM: Show the difference:
+- Fixed Weight: Order 2 DRUM = always 490 KG. Simple.
+- Catch Weight: Order 2 DRUM = actual weight captured at receipt. Drum-to-drum variance.
+
+CALLOUT BOX: "Key: The finished BBQ Sauce is FIXED weight (12 oz bottles). Only the raw material (bulk ketchup) is catch-weight."
+
+REQUIREMENTS:
+- TITLE at top: "Catch-Weight Receiving — Tomato Ketchup Drums" in large bold text
+- Show truck arriving with 2 drums, scale weighing each drum
+- Highlight the variance between nominal and actual with red annotations
+- Show the downstream impact: recipe uses ACTUAL weight (125 KG per batch)
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

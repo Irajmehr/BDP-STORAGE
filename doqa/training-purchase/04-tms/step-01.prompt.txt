@@ -1,0 +1,36 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces orders 4 drums of Tomato Ketchup from Pacific Coast Tomato Co. in Stockton, CA. The transportation order tracks all freight costs.
+
+CONTENT TO VISUALIZE:
+LIFECYCLE FLOW (top to bottom):
+
+1. CREATE PO → 4 DRUM RM-1050 from V-2020 (Stockton, CA)
+2. RELEASE PO (Ctrl+F9)
+3. GENERATE TPO → Linked to PO, Ship-From: Stockton, CA → Ship-To: Your Facility
+4. ADD CHARGES:
+   - Freight: $850 (FTL truck, CA to facility)
+   - Handling: $125 (dock unloading, 4 heavy drums at ~245 KG each)
+   - Insurance: $45 (cargo insurance)
+   - TOTAL: $1,020
+5. RECEIVE PO → Warehouse Receipt posted
+6. ACTUAL INVOICES ARRIVE → Update charges to actuals
+7. GENERATE INVOICE from TPO → Purchase Invoice for carrier
+8. POST → Charges flow to G/L, landed cost updated
+
+CALLOUT: "4 drums × ~245 KG = ~980 KG of ketchup. Freight cost = $1,020 ÷ 980 KG = $1.04/KG added to landed cost"
+
+REQUIREMENTS:
+- TITLE at top: "TPO Lifecycle — Tomato Ketchup Drums (CA → Facility)" in large bold text
+- Show as a vertical flow with numbered steps
+- Each charge shown in an orange cost box
+- Final landed cost calculation at bottom
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

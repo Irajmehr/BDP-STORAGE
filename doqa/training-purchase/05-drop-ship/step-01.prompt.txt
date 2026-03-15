@@ -1,0 +1,37 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces' co-pack customer "Metro Grill" needs 20 cases of Worcestershire Sauce. Instead of stocking it, Signature Sauces arranges a drop shipment: Lea & Perrins ships directly to Metro Grill.
+
+CONTENT TO VISUALIZE:
+THREE-PARTY FLOW:
+
+PARTY 1 (left): Lea & Perrins (V-2060, Fair Lawn, NJ) — SUPPLIER
+PARTY 2 (center): Signature Sauces — BROKER (handles paperwork only)
+PARTY 3 (right): Metro Grill — CUSTOMER (receives goods)
+
+FLOW:
+1. Metro Grill places order → SO created at Signature Sauces
+2. SO Line: Purchasing Code = "DROP SHIP"
+3. Signature Sauces creates PO → Lea & Perrins
+4. PO: Actions → Drop Shipment → Get Sales Orders → selects SO
+5. PO Ship-To = Metro Grill address (not Signature Sauces warehouse)
+6. Post PO Receive → SO auto-ships (no manual SO posting needed)
+
+DIRECT ARROW from Lea & Perrins to Metro Grill labeled "Physical goods flow"
+DOTTED ARROWS through Signature Sauces labeled "Document flow only"
+
+BOTTOM: "Net inventory impact at Signature Sauces = ZERO. Purchase receipt and sales shipment happen simultaneously."
+
+REQUIREMENTS:
+- TITLE at top: "Drop Shipment — Worcestershire Sauce (Lea & Perrins → Metro Grill)" in large bold text
+- Show three entities with a direct arrow for goods and dotted arrows for documents
+- Highlight the zero inventory impact at Signature Sauces
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

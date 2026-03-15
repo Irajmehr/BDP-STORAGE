@@ -1,0 +1,38 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces receives IQF Sweet Cherries (RM-1051) at their COLD-STORE location which has "Require Receive" enabled. The warehouse team processes the receipt without seeing pricing info.
+
+CONTENT TO VISUALIZE:
+TWO-LANE FLOW:
+
+LANE 1 — "Purchasing (sees cost)":
+- Creates PO for 200 KG IQF Cherries from Valley Fruit Farms at $4.80/KG = $960
+- Releases PO (Ctrl+F9)
+
+LANE 2 — "Warehouse (no cost visible)":
+- Receives Whse. Receipt notification
+- Sees: Item RM-1051, Description: Sweet Cherries IQF, Qty: 200 KG, Location: COLD-STORE, Bin: FREEZE-01
+- Does NOT see: $4.80/KG or $960 total
+- Posts receipt (F9)
+
+RESULT: Both lanes merge:
+- Posted Whse. Receipt created
+- ILE: +200 KG at COLD-STORE/FREEZE-01
+- PO: Qty. Received = 200, ready for invoice
+
+CALLOUT: "Separation of Duties — warehouse staff handle goods, purchasing handles costs"
+
+REQUIREMENTS:
+- TITLE at top: "Warehouse Receipt — IQF Cherries at Cold Storage" in large bold text
+- Show the COLD-STORE location with a snowflake icon and bin code FREEZE-01
+- Two parallel lanes clearly separated
+- Green checkmark at the merge point
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

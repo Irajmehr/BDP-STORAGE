@@ -1,0 +1,34 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces imports Balsamic Vinegar from Italy. The TPO has charges from 3 different vendors. Each vendor gets a separate Purchase Invoice.
+
+CONTENT TO VISUALIZE:
+TPO CHARGE LINES:
+| Line | Charge | Vendor | Amount |
+| 1 | Ocean Freight | Mediterranean Shipping Co. | $2,450 |
+| 2 | Insurance | Mediterranean Shipping Co. | $120 |
+| 3 | Customs Brokerage | US Customs Broker LLC | $375 |
+| 4 | Port Handling | Newark Port Services | $180 |
+| TOTAL | | | $3,125 |
+
+THREE INVOICES GENERATED:
+Invoice 1 → Mediterranean Shipping Co.: $2,450 + $120 = $2,570
+Invoice 2 → US Customs Broker LLC: $375
+Invoice 3 → Newark Port Services: $180
+
+KEY POINT: "Generate Invoice" creates PI for ONE vendor at a time. Other vendors remain uninvoiced on the TPO until processed.
+
+REQUIREMENTS:
+- TITLE at top: "Multi-Vendor TPO Invoice — Italian Balsamic Import" in large bold text
+- Show the TPO as a central document with 4 charge lines
+- Three arrows pointing to three separate Purchase Invoices, color-coded by vendor
+- Show which lines go to which invoice
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

@@ -1,0 +1,36 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces buys Cane Sugar (RM-1010) from Domino Foods. The vendor offers volume-based pricing tiers. This diagram shows how Purchase Price Lists work in BC.
+
+CONTENT TO VISUALIZE:
+PRICE LIST HEADER:
+- Description: "Domino Foods — 2026 Sugar Pricing"
+- Assign-to: Vendor V-2040 (Domino Foods Inc.)
+- Status: Active
+- Starting Date: Jan 1, 2026
+
+PRICE TIERS (shown as a staircase going down):
+| Min. Qty | BAGs | KG Equivalent | Price/KG | Savings |
+| 1 bag | 1-19 | 25-475 KG | $0.88 | Base price |
+| 20 bags | 20-39 | 500-975 KG | $0.82 | 7% discount |
+| 40 bags | 40+ (pallet) | 1,000+ KG | $0.75 | 15% discount |
+
+EXAMPLE:
+PO with Qty = 10 bags → BC selects $0.88/KG → Line Amount = $220
+Change Qty to 25 bags → BC auto-updates to $0.82/KG → Line Amount = $512.50
+Change Qty to 45 bags → BC auto-updates to $0.75/KG → Line Amount = $843.75
+
+REQUIREMENTS:
+- TITLE at top: "Purchase Pricing — Cane Sugar Volume Tiers" in large bold text
+- Show the pricing as a descending staircase with each tier
+- Show the PO line updating automatically as quantity changes
+- Highlight the cost savings at each tier in green
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.

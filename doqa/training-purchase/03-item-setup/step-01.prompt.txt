@@ -1,0 +1,39 @@
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+
+CONTEXT: Signature Sauces is setting up item RM-1065 Chipotle Powder (meco) in Business Central. It has a base UOM of KG with two alternate UOMs.
+
+CONTENT TO VISUALIZE:
+ITEM CARD VISUALIZATION:
+- No.: RM-1065
+- Description: Chipotle Powder (meco)
+- Type: Inventory
+- Base UOM: KG
+- Costing Method: FIFO
+- Item Tracking Code: LOTALL
+- Vendor: Spice Chain International (V-2050)
+- Vendor Item No.: SCI-CHIP-MECO-500
+- Unit Cost: $18.50/KG
+
+UOM HIERARCHY (pyramid or tree):
+- TOP: BOX = 5 KG (contains 10 BAGs)
+- MIDDLE: BAG = 0.5 KG (500g retail bag)
+- BASE: KG = 1 (base unit, smallest trackable)
+
+CONVERSION EXAMPLE:
+Purchase: 6 BOX × 5 KG = 30 KG in inventory
+Each BOX contains 10 × 500g BAGs
+
+REQUIREMENTS:
+- TITLE at top: "Item Setup — Chipotle Powder (RM-1065) UOM Hierarchy" in large bold text
+- Show the Item Card as a card/form layout
+- Show the UOM pyramid with clear conversion factors
+- Highlight that ILE always records in KG
+
+MANDATORY STYLE:
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+DO NOT create grayscale images, stock photos, or generic infographics.
