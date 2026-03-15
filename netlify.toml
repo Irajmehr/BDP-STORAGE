@@ -1,8 +1,46 @@
 [build]
   publish = "."
 
+# ── Legacy paths (backward compatible) ──
+
 [[headers]]
-  for = "/*"
+  for = "/videos/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/simulations/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# ── App-scoped paths (new convention: /{app-name}/{asset-type}/*) ──
+
+# Videos — immutable, cache forever
+[[headers]]
+  for = "/*/videos/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Simulations/audio — short cache, use ?v= to bust
+[[headers]]
+  for = "/*/simulations/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# Images — 24h cache
+[[headers]]
+  for = "/*/images/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+# Exports/reports — short cache
+[[headers]]
+  for = "/*/exports/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300, must-revalidate"
