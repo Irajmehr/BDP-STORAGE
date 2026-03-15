@@ -1,0 +1,55 @@
+
+COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
+Company: Signature Sauces | Industry: Specialty Food Manufacturing
+Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
+Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
+Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
+RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
+RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
+RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
+RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
+RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
+Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
+Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
+Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a Business Central ERP training presentation.
+
+TOPIC: "Alt Uom Setup" — Step 6: Item Card Configuration
+
+WHAT THIS STEP COVERS:
+Per-item fields on the Item Card: CASE Size, Enable CASE Ledger, Input in Alt UOM or Base UOM, Inbound Weight Method (Specific / Standard / Calculated), and Always Ship Full CASE. These override global defaults for individual items.
+
+DETAILED CONTEXT:
+Flour uses Standard weight — every box is exactly 10 KG, no weighing needed. Fresh fish uses Specific weight — the receiver weighs each box individually. Calculated weight uses the CASE Size conversion factor. Always Ship Full CASE prevents partial-case picks for items where breaking a case destroys the product.
+
+KEY NARRATION POINTS:
+The global settings establish the defaults, but individual items often need different behavior. On each Item Card, you will find per-item fields that override the global configuration. CASE Size defines the specific packaging for that item. Enable CASE Ledger can be toggled per item — you might track cases for frozen goods but not for bulk spices. Input in Alt UOM or Base UOM determines which unit the system expects users to enter first on documents.
+
+SPECIFIC SETTINGS/FIELDS TO SHOW:
+1. Enable CASE Ledger
+2. Enable CASE Ledger can be toggled per item
+
+VISUALIZATION TYPE: settings-panel
+
+- Show each setting as a NUMBERED CARD or ROW in a settings panel:
+  - Setting name in BOLD
+  - Current value or toggle state (ON/OFF with green/red indicator)
+  - One-line description of what it controls
+  - A REAL-LIFE EXAMPLE in italic showing the business impact
+- Show at least 3-4 settings with their toggle states and examples
+- Use checkmark for ON settings, X for OFF settings
+
+MANDATORY STYLE:
+- TITLE at top: "Item Card Configuration" in large bold text
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for critical/OFF settings, Green (#009900) for ON/enabled settings, Orange (#FF9900) for costs/amounts
+- Each setting or concept should be a distinct visual card/row — NOT just text
+- Include REAL-LIFE EXAMPLES from food distribution (seafood, flour, frozen goods)
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+IMPORTANT: This is a SETUP/CONFIGURATION visualizer. Show SPECIFIC FIELD NAMES, their VALUES, and WHAT HAPPENS when they are toggled ON vs OFF. Do NOT create a generic overview — show the actual settings panel with real examples.
+
+DO NOT create grayscale images, stock photos, or generic infographics.

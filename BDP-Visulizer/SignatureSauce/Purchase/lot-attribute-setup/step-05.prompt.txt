@@ -1,0 +1,50 @@
+
+COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
+Company: Signature Sauces | Industry: Specialty Food Manufacturing
+Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
+Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
+Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
+RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
+RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
+RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
+RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
+RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
+Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
+Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
+Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a Business Central ERP training presentation.
+
+TOPIC: "Lot Attribute Setup" — Step 5: Item Lot Attributes Matrix
+
+WHAT THIS STEP COVERS:
+The Item Lot Attributes page shows the matrix created by Global Attributes for each item. Each row is a unique combination of global attribute values. For example, item IM1029 might have 4 rows: MyG_A x CN, MyG_A x US, MyG_B x CN, MyG_B x US — each representing a valid lot configuration.
+
+DETAILED CONTEXT:
+Grade A salmon from Norway costs $12/kg while Grade B from Chile costs $8/kg. The matrix lets you set different costs, vendors, preferred UOM sizes, and reorder policies per combination. This is where abstract setup becomes concrete business rules.
+
+KEY NARRATION POINTS:
+The Item Lot Attributes page is where all the setup comes together into a concrete, item-specific matrix. Open any item card, navigate to the Item Lot Attributes action, and you see a grid where each row represents a unique combination of your global attribute values. Take item IM1029, Atlantic Salmon Fillets. If MYGRADE has values A and B, and COO has values CN and US, you get four rows: Grade A from China, Grade A from the US, Grade B from China, and Grade B from the US. Each row can carry its own unit cost, preferred vendor, case size configuration, and reorder parameters.
+
+
+VISUALIZATION TYPE: matrix-grid
+
+- Show a GRID/MATRIX TABLE with row and column headers
+- Use numbered rows with attribute combinations
+- Each cell should show the value and a brief note
+- Highlight active combinations with color
+- Include a LEGEND explaining what each attribute means
+
+MANDATORY STYLE:
+- TITLE at top: "Item Lot Attributes Matrix" in large bold text
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for critical/OFF settings, Green (#009900) for ON/enabled settings, Orange (#FF9900) for costs/amounts
+- Each setting or concept should be a distinct visual card/row — NOT just text
+- Include REAL-LIFE EXAMPLES from food distribution (seafood, flour, frozen goods)
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+IMPORTANT: This is a SETUP/CONFIGURATION visualizer. Show SPECIFIC FIELD NAMES, their VALUES, and WHAT HAPPENS when they are toggled ON vs OFF. Do NOT create a generic overview — show the actual settings panel with real examples.
+
+DO NOT create grayscale images, stock photos, or generic infographics.

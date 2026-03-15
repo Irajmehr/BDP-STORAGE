@@ -1,0 +1,55 @@
+
+COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
+Company: Signature Sauces | Industry: Specialty Food Manufacturing
+Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
+Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
+Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
+RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
+RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
+RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
+RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
+RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
+Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
+Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
+Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a Business Central ERP training presentation.
+
+TOPIC: "Alt Uom Setup" — Step 2: Item CASE Sizes
+
+WHAT THIS STEP COVERS:
+Enable Item CASE Sizes unlocks the Item Alt UOM Sizes sub-page on each Item Card. This is where you define Inner CASE Count, Inner CASE Unit Weight, and total CASE Weight — the conversion math between cases and base UOM.
+
+DETAILED CONTEXT:
+A BOX10 means 10 KG of flour per case. If you receive 50 cases, Business Central calculates 500 KG automatically. Without CASE sizes defined, the system cannot convert between packaging units and weight units.
+
+KEY NARRATION POINTS:
+With the master switch on, the next question is: how does Business Central know the relationship between a case and a kilogram? That is what Enable Item CASE Sizes controls. When this is ON, each Item Card gets a sub-page called Item Alt UOM Sizes where you define the math. Take a 10-KG box of all-purpose flour: the Inner CASE Count is 1, the Inner CASE Unit Weight is 10 KG, and the total CASE Weight is 10 KG. Now when a buyer enters 50 cases on a purchase order, the system instantly calculates 500 KG as the base quantity. For a master case of individually wrapped cheese blocks — say 20 blocks at 0.5 KG each — the Inner CASE Count is 20, the unit weight is 0.5 KG, and the CASE Weight is 10 KG.
+
+SPECIFIC SETTINGS/FIELDS TO SHOW:
+1. Enable Item CASE Sizes unlocks the Item Alt UOM Sizes sub
+2. Enable Item CASE Sizes controls
+
+VISUALIZATION TYPE: settings-panel
+
+- Show each setting as a NUMBERED CARD or ROW in a settings panel:
+  - Setting name in BOLD
+  - Current value or toggle state (ON/OFF with green/red indicator)
+  - One-line description of what it controls
+  - A REAL-LIFE EXAMPLE in italic showing the business impact
+- Show at least 3-4 settings with their toggle states and examples
+- Use checkmark for ON settings, X for OFF settings
+
+MANDATORY STYLE:
+- TITLE at top: "Item CASE Sizes" in large bold text
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for critical/OFF settings, Green (#009900) for ON/enabled settings, Orange (#FF9900) for costs/amounts
+- Each setting or concept should be a distinct visual card/row — NOT just text
+- Include REAL-LIFE EXAMPLES from food distribution (seafood, flour, frozen goods)
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+IMPORTANT: This is a SETUP/CONFIGURATION visualizer. Show SPECIFIC FIELD NAMES, their VALUES, and WHAT HAPPENS when they are toggled ON vs OFF. Do NOT create a generic overview — show the actual settings panel with real examples.
+
+DO NOT create grayscale images, stock photos, or generic infographics.

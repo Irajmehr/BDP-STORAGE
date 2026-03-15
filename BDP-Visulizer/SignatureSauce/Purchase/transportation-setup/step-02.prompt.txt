@@ -1,0 +1,56 @@
+
+COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
+Company: Signature Sauces | Industry: Specialty Food Manufacturing
+Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
+Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
+Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
+RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
+RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
+RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
+RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
+RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
+Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
+Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
+Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a Business Central ERP training presentation.
+
+TOPIC: "Transportation Setup" — Step 2: TO Mandatory Controls
+
+WHAT THIS STEP COVERS:
+Three boolean fields control when Transportation Orders are required. "Require TPO" blocks PO release without a linked TO. "TO Mandatory on PO with TO Template" enforces TOs when the vendor has a template assigned. "TO Mandatory on SO with TO Template" does the same for Sales Orders.
+
+DETAILED CONTEXT:
+For import vendors, turn on "Require TPO". This prevents anyone from releasing a Purchase Order without first creating a Transportation Order — no more forgotten freight costs. For domestic vendors, leave it off to avoid unnecessary overhead.
+
+KEY NARRATION POINTS:
+These three fields are your enforcement mechanism. "Require TPO" is the big one. When this is turned on, the system blocks anyone from releasing a Purchase Order that does not have a linked Transportation Order. For import vendors — your seafood suppliers in Norway, your spice vendors in India — this is essential. It prevents the all-too-common scenario where a buyer releases a PO, the goods ship, and three weeks later someone realizes nobody created a TO, so the freight charges are floating untracked.
+
+SPECIFIC SETTINGS/FIELDS TO SHOW:
+1. Require TPO
+2. TO Mandatory on PO with TO Template
+3. TO Mandatory on SO with TO Template
+
+VISUALIZATION TYPE: settings-panel
+
+- Show each setting as a NUMBERED CARD or ROW in a settings panel:
+  - Setting name in BOLD
+  - Current value or toggle state (ON/OFF with green/red indicator)
+  - One-line description of what it controls
+  - A REAL-LIFE EXAMPLE in italic showing the business impact
+- Show at least 3-4 settings with their toggle states and examples
+- Use checkmark for ON settings, X for OFF settings
+
+MANDATORY STYLE:
+- TITLE at top: "TO Mandatory Controls" in large bold text
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for critical/OFF settings, Green (#009900) for ON/enabled settings, Orange (#FF9900) for costs/amounts
+- Each setting or concept should be a distinct visual card/row — NOT just text
+- Include REAL-LIFE EXAMPLES from food distribution (seafood, flour, frozen goods)
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+IMPORTANT: This is a SETUP/CONFIGURATION visualizer. Show SPECIFIC FIELD NAMES, their VALUES, and WHAT HAPPENS when they are toggled ON vs OFF. Do NOT create a generic overview — show the actual settings panel with real examples.
+
+DO NOT create grayscale images, stock photos, or generic infographics.

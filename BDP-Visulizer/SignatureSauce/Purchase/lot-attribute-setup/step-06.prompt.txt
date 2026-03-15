@@ -1,0 +1,50 @@
+
+COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
+Company: Signature Sauces | Industry: Specialty Food Manufacturing
+Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
+Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
+Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
+RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
+RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
+RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
+RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
+RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
+Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
+Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
+Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a Business Central ERP training presentation.
+
+TOPIC: "Lot Attribute Setup" — Step 6: Matrix Configuration Columns
+
+WHAT THIS STEP COVERS:
+Each row in the Item Lot Attributes matrix has configuration columns: Pre-Pricing (auto-adjust cost by attribute), Dimension Code (post to specific GL dimensions), Transformation Rule (convert attribute values), Fixed per Rec. No. (lock value per receipt), and Mandatory on Inbound (require entry at receiving).
+
+DETAILED CONTEXT:
+Pre-Pricing enabled on MYGRADE means the system automatically adjusts the purchase price based on the grade received — Grade A gets the premium price, Grade B gets the discount price, all without manual intervention. Dimension Code links attributes to financial reporting dimensions.
+
+KEY NARRATION POINTS:
+Each row in the Item Lot Attributes matrix carries configuration columns that control how that specific attribute combination behaves in transactions. Pre-Pricing is one of the most impactful: when enabled on the MYGRADE attribute, the system automatically adjusts the purchase price based on the grade received. If the vendor ships Grade A, the PO line gets the Grade A premium price. If the inspection downgrades it to Grade B, the price adjusts automatically — no manual correction needed. Dimension Code links an attribute combination to a financial dimension, so Grade A Norwegian salmon can post to a different cost center than Grade B Chilean salmon, giving your finance team attribute-level profitability reporting without extra journal entries.
+
+
+VISUALIZATION TYPE: matrix-grid
+
+- Show a GRID/MATRIX TABLE with row and column headers
+- Use numbered rows with attribute combinations
+- Each cell should show the value and a brief note
+- Highlight active combinations with color
+- Include a LEGEND explaining what each attribute means
+
+MANDATORY STYLE:
+- TITLE at top: "Matrix Configuration Columns" in large bold text
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for critical/OFF settings, Green (#009900) for ON/enabled settings, Orange (#FF9900) for costs/amounts
+- Each setting or concept should be a distinct visual card/row — NOT just text
+- Include REAL-LIFE EXAMPLES from food distribution (seafood, flour, frozen goods)
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+IMPORTANT: This is a SETUP/CONFIGURATION visualizer. Show SPECIFIC FIELD NAMES, their VALUES, and WHAT HAPPENS when they are toggled ON vs OFF. Do NOT create a generic overview — show the actual settings panel with real examples.
+
+DO NOT create grayscale images, stock photos, or generic infographics.

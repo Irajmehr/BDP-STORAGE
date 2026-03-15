@@ -1,10 +1,36 @@
 {
-  "generatedAt": "2026-03-15T19:18:25.857Z",
+  "generatedAt": "2026-03-15T19:43:25.485Z",
   "company": "Signature Sauces",
   "product": "Cherry Balsamic BBQ Sauce",
   "cdnBase": "https://dynaapi.netlify.app",
   "cdnPath": "BDP-Visulizer/SignatureSauce/Purchase",
   "visualizers": {
+    "document-ecosystem": {
+      "steps": 7,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/document-ecosystem/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/document-ecosystem/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/document-ecosystem/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/document-ecosystem/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/document-ecosystem/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/document-ecosystem/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/document-ecosystem/step-06.png"
+        }
+      }
+    },
     "simple-purchase": {
       "steps": 14,
       "images": {
@@ -49,6 +75,435 @@
         },
         "step-13": {
           "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/simple-purchase/step-13.png"
+        }
+      }
+    },
+    "alt-uom-purchase": {
+      "steps": 12,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-06.png"
+        },
+        "step-07": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-07.png"
+        },
+        "step-08": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-08.png"
+        },
+        "step-09": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-09.png"
+        },
+        "step-10": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-10.png"
+        },
+        "step-11": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-purchase/step-11.png"
+        }
+      }
+    },
+    "lot-purchase": {
+      "steps": 14,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-06.png"
+        },
+        "step-07": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-07.png"
+        },
+        "step-08": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-08.png"
+        },
+        "step-09": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-09.png"
+        },
+        "step-10": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-10.png"
+        },
+        "step-11": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-11.png"
+        },
+        "step-12": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-12.png"
+        },
+        "step-13": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-purchase/step-13.png"
+        }
+      }
+    },
+    "blanket-purchase": {
+      "steps": 6,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/blanket-purchase/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/blanket-purchase/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/blanket-purchase/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/blanket-purchase/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/blanket-purchase/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/blanket-purchase/step-05.png"
+        }
+      }
+    },
+    "recurring-purchase": {
+      "steps": 6,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/recurring-purchase/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/recurring-purchase/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/recurring-purchase/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/recurring-purchase/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/recurring-purchase/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/recurring-purchase/step-05.png"
+        }
+      }
+    },
+    "tms-charges": {
+      "steps": 8,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-06.png"
+        },
+        "step-07": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/tms-charges/step-07.png"
+        }
+      }
+    },
+    "logistics-orders": {
+      "steps": 9,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-06.png"
+        },
+        "step-07": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-07.png"
+        },
+        "step-08": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-orders/step-08.png"
+        }
+      }
+    },
+    "drop-ship": {
+      "steps": 7,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/drop-ship/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/drop-ship/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/drop-ship/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/drop-ship/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/drop-ship/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/drop-ship/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/drop-ship/step-06.png"
+        }
+      }
+    },
+    "warehouse-receiving": {
+      "steps": 9,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-06.png"
+        },
+        "step-07": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-07.png"
+        },
+        "step-08": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/warehouse-receiving/step-08.png"
+        }
+      }
+    },
+    "traceability-chain": {
+      "steps": 6,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/traceability-chain/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/traceability-chain/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/traceability-chain/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/traceability-chain/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/traceability-chain/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/traceability-chain/step-05.png"
+        }
+      }
+    },
+    "vendor-pricing": {
+      "steps": 7,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/vendor-pricing/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/vendor-pricing/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/vendor-pricing/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/vendor-pricing/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/vendor-pricing/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/vendor-pricing/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/vendor-pricing/step-06.png"
+        }
+      }
+    },
+    "config-controls": {
+      "steps": 5,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/config-controls/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/config-controls/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/config-controls/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/config-controls/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/config-controls/step-04.png"
+        }
+      }
+    },
+    "alt-uom-setup": {
+      "steps": 7,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-setup/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-setup/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-setup/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-setup/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-setup/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-setup/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/alt-uom-setup/step-06.png"
+        }
+      }
+    },
+    "lot-attribute-setup": {
+      "steps": 7,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-attribute-setup/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-attribute-setup/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-attribute-setup/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-attribute-setup/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-attribute-setup/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-attribute-setup/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/lot-attribute-setup/step-06.png"
+        }
+      }
+    },
+    "logistics-setup": {
+      "steps": 7,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-setup/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-setup/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-setup/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-setup/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-setup/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-setup/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/logistics-setup/step-06.png"
+        }
+      }
+    },
+    "transportation-setup": {
+      "steps": 8,
+      "images": {
+        "step-00": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-00.png"
+        },
+        "step-01": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-01.png"
+        },
+        "step-02": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-02.png"
+        },
+        "step-03": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-03.png"
+        },
+        "step-04": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-04.png"
+        },
+        "step-05": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-05.png"
+        },
+        "step-06": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-06.png"
+        },
+        "step-07": {
+          "cdnUrl": "https://dynaapi.netlify.app/BDP-Visulizer/SignatureSauce/Purchase/transportation-setup/step-07.png"
         }
       }
     }

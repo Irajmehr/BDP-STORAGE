@@ -1,0 +1,50 @@
+
+COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
+Company: Signature Sauces | Industry: Specialty Food Manufacturing
+Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
+Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
+Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
+RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
+RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
+RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
+RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
+RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
+Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
+Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
+Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+
+Create an EDUCATIONAL WHITEBOARD DIAGRAM for a Business Central ERP training presentation.
+
+TOPIC: "Logistics Setup" — Step 3: INCOTERMS & Shipping Terms
+
+WHAT THIS STEP COVERS:
+INCOTERMS (FOB, CIF, DDP, EXW, and others) control the division of costs, risks, and responsibilities between buyer and seller. The Logistics Order captures which party pays for freight, insurance, and customs at each leg of the journey.
+
+DETAILED CONTEXT:
+FOB Origin means freight is YOUR cost — the Logistics Order captures those charges so they flow into landed cost. CIF means the vendor includes freight in their price, so the order reflects a different cost structure.
+
+KEY NARRATION POINTS:
+INCOTERMS are not just legal jargon — they directly control how costs flow through your system. When a Logistics Order is set to FOB Origin, it means freight cost is YOUR responsibility from the moment the goods leave the supplier's dock. The Logistics Order captures those freight charges so they flow into your landed cost calculation, giving you an accurate picture of what that salmon actually costs per pound delivered. Switch to CIF and the picture changes — the vendor includes freight and insurance in their price, so the Logistics Order reflects a different cost structure with fewer buyer-side charges. DDP means the vendor handles everything including customs duties, so your Logistics Order carries minimal additional charges.
+
+
+VISUALIZATION TYPE: cost-waterfall
+
+- Show a WATERFALL/STACKED BAR showing cost buildup
+- Start with base vendor price
+- Add each charge as a separate colored segment
+- End with total landed cost
+- Label each segment with dollar amounts
+
+MANDATORY STYLE:
+- TITLE at top: "INCOTERMS & Shipping Terms" in large bold text
+- BACKGROUND: Pure white (like a clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for critical/OFF settings, Green (#009900) for ON/enabled settings, Orange (#FF9900) for costs/amounts
+- Each setting or concept should be a distinct visual card/row — NOT just text
+- Include REAL-LIFE EXAMPLES from food distribution (seafood, flour, frozen goods)
+- Hand-drawn marker aesthetic with slightly imperfect lines
+- 16:9 landscape orientation
+- NOT photorealistic, NOT grayscale, NOT 3D
+
+IMPORTANT: This is a SETUP/CONFIGURATION visualizer. Show SPECIFIC FIELD NAMES, their VALUES, and WHAT HAPPENS when they are toggled ON vs OFF. Do NOT create a generic overview — show the actual settings panel with real examples.
+
+DO NOT create grayscale images, stock photos, or generic infographics.
