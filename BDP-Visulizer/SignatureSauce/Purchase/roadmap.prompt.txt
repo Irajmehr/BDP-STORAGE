@@ -1,0 +1,85 @@
+Create a PROFESSIONAL INFOGRAPHIC DIAGRAM titled "Purchase System Roadmap" for Inecta Food ERP — Signature Sauces.
+
+This is a MASTER OVERVIEW showing the complete purchase process flow with visual icons for each step and branching connections to sub-processes.
+
+LAYOUT: Horizontal flow, left-to-right, 16:9 landscape, clean modern infographic style.
+
+═══════════════════════════════════════════════════════════
+CENTRAL BACKBONE (large, prominent, flowing left to right with CHEVRON ARROWS between steps, like the SAP purchasing overview):
+
+STEP 1: "Purchase Order"
+- Icon: clipboard with checkmark
+- Color: Blue (#3498DB)
+- Label below: "Create PO for ingredients"
+- Small text: "200 KG IQF Cherries"
+
+STEP 2: "Release & Ship"
+- Icon: delivery truck
+- Color: Orange (#E67E22)
+- Label below: "Vendor ships goods"
+- Small text: "From Valley Fruit Farms"
+
+STEP 3: "Warehouse Receipt"
+- Icon: warehouse shelves with boxes
+- Color: Purple (#8E44AD)
+- Label below: "Receive & verify at dock"
+- Small text: "Cold Storage / FREEZE-01"
+
+STEP 4: "Invoice & Post"
+- Icon: calculator/invoice document
+- Color: Green (#27AE60)
+- Label below: "Post receipt & invoice"
+- Small text: "ILE + Value Entry + G/L"
+
+STEP 5: "Payment"
+- Icon: coins/money stack
+- Color: Gold (#F1C40F)
+- Label below: "Pay vendor"
+- Small text: "Vendor Ledger Entry"
+
+Each step connected by large CHEVRON ARROWS (gold/orange gradient) like the SAP example.
+═══════════════════════════════════════════════════════════
+
+BRANCH CONNECTIONS (smaller bubbles/cards below and above the central flow, connected by lines):
+
+ABOVE THE FLOW (feeds INTO the PO):
+┌─ "Blanket PO" (green) — annual sugar contract, scheduled releases
+├─ "Recurring PO" (teal) — weekly produce auto-orders
+├─ "Pricing" (gold) — volume tiers, auto price selection
+└─ "Purchase Quote" (gray, dashed) — optional starting point
+
+AT THE PO STEP (connects to PO creation):
+├─ "Alt UOM" (purple) — DRUM→KG conversion for vinegar
+└─ "Lot Tracking" (orange) — assign lot, COO, USDA grade for ketchup
+
+AT RELEASE/SHIP STEP:
+└─ "TMS" (red) — Transportation Order with freight charges
+
+AT WAREHOUSE STEP:
+└─ "Catch Weight" (blue) — actual drum weight varies from nominal
+
+BELOW THE FLOW (special paths):
+├─ "Drop Shipment" (purple) — vendor ships direct to customer (bypasses warehouse)
+└─ "Traceability" (teal) — trace PO→ILE→VLE→G/L (audit trail)
+
+═══════════════════════════════════════════════════════════
+
+HEADER: "Purchase System Roadmap — Signature Sauces"
+SUBTITLE: "Cherry Balsamic BBQ Sauce • 18 Raw Materials • 8 Vendors"
+
+FOOTER: "Inecta Food ERP — Business Central" (small, bottom right)
+
+STYLE:
+- CLEAN, MODERN INFOGRAPHIC — NOT hand-drawn whiteboard
+- Use FLAT DESIGN with subtle shadows
+- GRADIENT CHEVRON ARROWS between main steps (gold-to-orange, like the SAP example)
+- Each main step in a rounded rectangle with an ICON ILLUSTRATION above it
+- Branch connections use thin colored lines with small rounded labels
+- WHITE BACKGROUND with plenty of whitespace
+- Professional corporate presentation quality
+- 16:9 landscape (1280x720 equivalent proportions)
+- Color palette: Blues, oranges, greens, purples — Inecta corporate
+- Icons should be simple flat illustrations (not emoji, not 3D)
+- Each branch label should have a small colored dot matching its process color
+
+DO NOT make this look hand-drawn or sketchy. Make it look like a professional corporate infographic or slide deck diagram. Think McKinsey or SAP presentation quality.
