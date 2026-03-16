@@ -1,40 +1,41 @@
-Create an EDUCATIONAL WHITEBOARD FLOW DIAGRAM showing Lot Tracking, Lot Tracing & Lot Attributes in Inecta Food ERP.
+Create an EDUCATIONAL WHITEBOARD FLOW DIAGRAM showing the Lot Tracking and Attribute process in Inecta Food ERP.
 
-COMPANY: Signature Sauces — full ingredient traceability for BBQ Sauce production
+COMPANY: Signature Sauces — tracking lots for Tomato Ketchup drums (catch-weight)
 
-SHOW THE LOT TRACING PAGE with Source and Destination sections:
+FLOW:
 
-TOP — "LOT TRACKING SETUP":
-[Item Tracking Code: LOTALL] → [Lot Purchase Inbound: Yes] → [Lot Sales Outbound: Yes]
-[Assign to Item Card] → [Lot No. Series: LOT-XXXX]
+TOP ROW — "SETUP":
+[Item Tracking Code: LOTALL] → [Lot Purchase Inbound: ✓]
+[Item Card: RM-1050] → [Tracking Code: LOTALL assigned]
+[Lot No. Series: LOT-XXXX]
 
-MIDDLE — "LOT TRACING PAGE" (THE key BC page for recalls):
-Show TWO grids:
+MIDDLE ROW — "PURCHASE & RECEIPT":
+[Create PO: 2 DRUM Ketchup] → [Open Item Tracking Lines]
+→ [Assign Lot No. (auto or manual)]
+→ [Catch-Weight: Nominal 245 KG, Actual 243.7 KG]
+→ [Post Receipt]
 
-SOURCE LOT INFORMATION (top grid with header row):
-Columns: Item No. | Entry Type | Doc No. | Description | Location | Qty | Source Type | Source Name | Lot No. | BRAND | Flavor
-Row 1: RM-1050 | Purchase | PO-107093 | Tomato Ketchup | MAIN-WH | 490 KG | Vendor | Pacific Coast Tomato | LOT-2026-001 | Heinz | -
-Row 2: RM-1051 | Purchase | PO-107092 | Sweet Cherries | COLD-STORE | 200 KG | Vendor | Valley Fruit Farms | LOT-2026-002 | - | Bing
-Row 3: RM-1053 | Purchase | PO-107088 | Balsamic Vinegar | MAIN-WH | 100 KG | Vendor | Acetaia di Modena | LOT-2026-003 | Acetaia | Aged
+BOTTOM LEFT — "LOT INFORMATION CARD":
+[Lot: LOT-2026-001]
+  COO: USA
+  USDA Grade: A
+  Production Date: 2026-01-15
+  Expiry Date: 2026-07-15
+  Brand: Heinz Industrial
 
-Actions toolbar above grid: [Refresh Lot Tracing] [Export] [View Document] [View ILE] [Invoke QC] [View QC Tests]
+BOTTOM RIGHT — "ITEM TRACING":
+[Trace Forward]: Lot → Where was it sold?
+[Trace Backward]: Customer complaint → Which vendor/lot?
+Arrow showing: Vendor → Receipt → Inventory → Sales → Customer
 
-DESTINATION LOT INFORMATION (bottom grid):
-Columns: Entry Type | Source No. | Source Name | Item No. | Lot No. | Description | Quantity | City
-Row 1: Sale | C00040 | Metro Grill | FG-2001 | RC00077 | Cherry Balsamic BBQ Sauce | 500 | New York
-Row 2: Sale | C00130 | Sysco | FG-2001 | RC00077 | Cherry Balsamic BBQ Sauce | 2,505 | Atlanta
-
-Show arrow: Purchase (Source) → points to → Destination (Sale)
-
-BOTTOM — "LOT ATTRIBUTES per Lot":
-Show a card: Lot LOT-2026-001
-  COO: USA | USDA Grade: A | Production: 2026-01-15 | Expiry: 2026-07-15
-
-CALLOUT (red): "Forward & backward traceability — vendor field to customer shelf in under 2 minutes"
+CALLOUT (red): "Recall traceability: trace any lot from field to shelf in under 2 minutes"
 
 MANDATORY STYLE:
 - BACKGROUND: Pure white (clean whiteboard)
-- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success, Orange (#FF9900) for lot attributes
-- Hand-drawn marker aesthetic
+- USE COLORFUL MARKERS: Blue (#0066CC) for main flow, Black for text, Red (#CC0000) for highlights/warnings, Green (#009900) for success/posting, Orange (#FF9900) for optional steps
+- Hand-drawn marker aesthetic with slightly imperfect lines
 - 16:9 landscape orientation
 - NOT photorealistic, NOT grayscale, NOT 3D
+- Use DASHED/DOTTED lines for optional steps, SOLID lines for required steps
+- Use ARROWS between each step showing flow direction
+DO NOT create grayscale images, stock photos, or generic infographics.
