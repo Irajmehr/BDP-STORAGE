@@ -1,39 +1,41 @@
-Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+Create an EDUCATIONAL WHITEBOARD FLOW DIAGRAM showing the Lot Tracking and Attribute process in Inecta Food ERP.
 
-CONTEXT: This is Step 0 of the "Lot Purchase" process in Inecta Food ERP.
+COMPANY: Signature Sauces — tracking lots for Tomato Ketchup drums (catch-weight)
 
+FLOW:
 
-COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
-Company: Signature Sauces | Industry: Specialty Food Manufacturing
-Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
-Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
-Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
-RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
-RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
-RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
-RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
-RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
-Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
-Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
-Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+TOP ROW — "SETUP":
+[Item Tracking Code: LOTALL] → [Lot Purchase Inbound: ✓]
+[Item Card: RM-1050] → [Tracking Code: LOTALL assigned]
+[Lot No. Series: LOT-XXXX]
 
-CONTENT TO VISUALIZE:
-Every food distribution operation needs solid lot traceability. Here's how it works in practice. In the food industry, traceability is not optional. You need to know exactly where every product came from, when it expires, and what quality grade it carries. Imagine you are purchasing aged Vermont cheddar wheels from a specialty dairy vendor.
+MIDDLE ROW — "PURCHASE & RECEIPT":
+[Create PO: 2 DRUM Ketchup] → [Open Item Tracking Lines]
+→ [Assign Lot No. (auto or manual)]
+→ [Catch-Weight: Nominal 245 KG, Actual 243.7 KG]
+→ [Post Receipt]
 
-REQUIREMENTS:
-- TITLE at top: "Lot Purchase - Step 0" in large bold text
-- Show the KEY CONCEPT of this step as a CLEAR VISUAL DIAGRAM
-- Use BOXES, ARROWS, LABELS to illustrate the process/concept described
-- Include specific details mentioned (document names, field names, amounts, etc.)
-- If the text mentions a flow or sequence, show it as connected steps
-- If the text mentions a comparison, show it as side-by-side panels
-- If the text mentions data/fields, show them as a card or table
+BOTTOM LEFT — "LOT INFORMATION CARD":
+[Lot: LOT-2026-001]
+  COO: USA
+  USDA Grade: A
+  Production Date: 2026-01-15
+  Expiry Date: 2026-07-15
+  Brand: Heinz Industrial
+
+BOTTOM RIGHT — "ITEM TRACING":
+[Trace Forward]: Lot → Where was it sold?
+[Trace Backward]: Customer complaint → Which vendor/lot?
+Arrow showing: Vendor → Receipt → Inventory → Sales → Customer
+
+CALLOUT (red): "Recall traceability: trace any lot from field to shelf in under 2 minutes"
 
 MANDATORY STYLE:
-- BACKGROUND: Pure white (like a clean whiteboard)
-- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- BACKGROUND: Pure white (clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main flow, Black for text, Red (#CC0000) for highlights/warnings, Green (#009900) for success/posting, Orange (#FF9900) for optional steps
 - Hand-drawn marker aesthetic with slightly imperfect lines
 - 16:9 landscape orientation
 - NOT photorealistic, NOT grayscale, NOT 3D
-
+- Use DASHED/DOTTED lines for optional steps, SOLID lines for required steps
+- Use ARROWS between each step showing flow direction
 DO NOT create grayscale images, stock photos, or generic infographics.

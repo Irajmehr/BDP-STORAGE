@@ -1,39 +1,42 @@
-Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+Create an EDUCATIONAL WHITEBOARD FLOW DIAGRAM showing the Vendor Pricing and Controls process in Inecta Food ERP.
 
-CONTEXT: This is Step 0 of the "Vendor Pricing" process in Inecta Food ERP.
+COMPANY: Signature Sauces — Cane Sugar from Domino Foods with volume pricing
 
+FLOW:
 
-COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
-Company: Signature Sauces | Industry: Specialty Food Manufacturing
-Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
-Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
-Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
-RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
-RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
-RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
-RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
-RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
-Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
-Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
-Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+TOP — "PRICE LIST SETUP":
+[Purchase Price List: Domino Foods — 2026 Sugar]
+  Status: Active
+  Assign-to: Vendor V-2040
 
-CONTENT TO VISUALIZE:
-Vendor pricing and cost controls are where your purchasing discipline lives in Business Central. Imagine you are a procurement manager for a food distributor that sources seasonal berries from multiple suppliers across different regions. Berry prices fluctuate with the season, volumes vary by supplier, and you need tight controls on what your team can pay. Business Central vendor and pricing setup includes Vendor Contracts, Purchase Pricing by Lot Attributes, tolerance settings, and advanced vendor configuration. In this walkthrough, we will cover how to set up volume-tiered pricing for your berry suppliers, enforce cost controls, manage broker relationships, and configure approval workflows that keep your purchasing process disciplined and auditable..
+MIDDLE — "VOLUME TIERS" (staircase going down):
+  Tier 1: 1+ bags → $0.88/KG (base)
+  Tier 2: 20+ bags → $0.82/KG (7% discount)
+  Tier 3: 40+ bags → $0.75/KG (15% discount)
 
-REQUIREMENTS:
-- TITLE at top: "Vendor Pricing - Step 0" in large bold text
-- Show the KEY CONCEPT of this step as a CLEAR VISUAL DIAGRAM
-- Use BOXES, ARROWS, LABELS to illustrate the process/concept described
-- Include specific details mentioned (document names, field names, amounts, etc.)
-- If the text mentions a flow or sequence, show it as connected steps
-- If the text mentions a comparison, show it as side-by-side panels
-- If the text mentions data/fields, show them as a card or table
+BOTTOM LEFT — "AUTO-SELECTION ON PO":
+[PO: 10 bags] → BC picks $0.88/KG
+[Change to 25 bags] → BC auto-updates to $0.82/KG ✓
+[Change to 45 bags] → BC auto-updates to $0.75/KG ✓✓
+
+BOTTOM CENTER — "COST TOLERANCE":
+[Item Card: Last Direct Cost = $4.80/KG]
+[Tolerance: 5%]
+  $5.00/KG (4.2% above) → ✓ OK
+  $5.10/KG (6.25% above) → ✗ WARNING/BLOCK
+
+BOTTOM RIGHT — "APPROVAL WORKFLOW":
+[PO > $1,000] → Send for Approval
+[Buyer limit: $1,000] → [Manager approves] → [PO Released]
+
+CALLOUT (red): "Pricing enforced by system, not by memory. Margins protected at the source."
 
 MANDATORY STYLE:
-- BACKGROUND: Pure white (like a clean whiteboard)
-- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- BACKGROUND: Pure white (clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main flow, Black for text, Red (#CC0000) for highlights/warnings, Green (#009900) for success/posting, Orange (#FF9900) for optional steps
 - Hand-drawn marker aesthetic with slightly imperfect lines
 - 16:9 landscape orientation
 - NOT photorealistic, NOT grayscale, NOT 3D
-
+- Use DASHED/DOTTED lines for optional steps, SOLID lines for required steps
+- Use ARROWS between each step showing flow direction
 DO NOT create grayscale images, stock photos, or generic infographics.

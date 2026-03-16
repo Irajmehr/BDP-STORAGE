@@ -1,39 +1,38 @@
-Create an EDUCATIONAL WHITEBOARD DIAGRAM for a training presentation.
+Create an EDUCATIONAL WHITEBOARD FLOW DIAGRAM showing the Alt UOM Purchase process in Inecta Food ERP.
 
-CONTEXT: This is Step 0 of the "Alt Uom Purchase" process in Inecta Food ERP.
+COMPANY: Signature Sauces — purchasing Balsamic Vinegar in DRUM, tracking in KG
 
+FLOW:
 
-COMPANY ADAPTATION (CRITICAL — replace all generic food examples):
-Company: Signature Sauces | Industry: Specialty Food Manufacturing
-Products: BBQ sauces, marinades, dressings, wing sauces, soups, gravies
-Cherry Balsamic BBQ Sauce recipe — 18 raw materials, 500 KG batch.
-Key items: RM-1050 Tomato Ketchup (catch-weight 55-gal drums from Pacific Coast Tomato, Stockton CA),
-RM-1051 Sweet Cherries IQF (Valley Fruit Farms, Oregon, Organic, cold storage),
-RM-1053 Balsamic Vinegar aged (Acetaia di Modena, Italy, Modena IGP, import duty 6.4%),
-RM-1010 Cane Sugar (Domino Foods, volume pricing tiers),
-RM-1065 Chipotle Powder meco (Spice Chain Intl, Mexico, KG/BAG/BOX UOMs),
-RM-1066 Worcestershire Sauce (Lea & Perrins, vendor catalog, drop shipment to co-pack customers).
-Vendors: Pacific Coast Tomato, Valley Fruit Farms, Acetaia di Modena, Domino Foods, Spice Chain International, Lea & Perrins, Vidalia Valley Produce, Mediterranean Imports.
-Customers: Sysco, Performance Food Group (B2B pallet-level). Co-pack customer: Metro Grill.
-Use these company's products, vendors, and business scenarios instead of generic seafood/food examples.
+LEFT SIDE — "ITEM CARD SETUP":
+[Item: RM-1053 Balsamic Vinegar]
+  Base UOM: KG (1)
+  Alt UOM: DRUM (50 KG each)
+  Purchasing UOM: DRUM
 
-CONTENT TO VISUALIZE:
-Understanding alternate unit of measure purchasing starts with a simple reality: vendors and warehouses think in different units. In the food industry, vendors often sell products in bags, cases, or boxes, but your inventory needs to track everything in a base unit like kilograms or pounds. Imagine you are ordering tapioca starch from your supplier. They sell it in 25-kilogram bags, but your production team needs to measure and consume it by the kilogram. This extension handles this conversion seamlessly, and even supports variable weight scenarios where each bag might weigh slightly different.
+CENTER — "PURCHASE ORDER":
+[PO Line: 4 DRUM @ $310/DRUM]
+  ↓ "BC Auto-Converts"
+[Qty (Base): 200 KG]
+[Line Amount: $1,240]
 
-REQUIREMENTS:
-- TITLE at top: "Alt Uom Purchase - Step 0" in large bold text
-- Show the KEY CONCEPT of this step as a CLEAR VISUAL DIAGRAM
-- Use BOXES, ARROWS, LABELS to illustrate the process/concept described
-- Include specific details mentioned (document names, field names, amounts, etc.)
-- If the text mentions a flow or sequence, show it as connected steps
-- If the text mentions a comparison, show it as side-by-side panels
-- If the text mentions data/fields, show them as a card or table
+RIGHT SIDE — "WHAT BC RECORDS":
+[WH Receipt: 200 KG] → [ILE: 200 KG]
+[Cost/Unit: $6.20/KG] (not $310/DRUM)
+
+BOTTOM — CONVERSION TABLE:
+| UOM | Qty per Base | Purchase | Inventory |
+| KG | 1 | ✗ | ✓ (base) |
+| DRUM | 50 | ✓ (vendor) | ✗ |
+
+CALLOUT (red): "ILE ALWAYS stores in BASE UOM — vendor sees DRUM, inventory sees KG"
 
 MANDATORY STYLE:
-- BACKGROUND: Pure white (like a clean whiteboard)
-- USE COLORFUL MARKERS: Blue (#0066CC) for main elements, Black for text, Red (#CC0000) for highlights, Green (#009900) for success/approvals, Orange (#FF9900) for costs
+- BACKGROUND: Pure white (clean whiteboard)
+- USE COLORFUL MARKERS: Blue (#0066CC) for main flow, Black for text, Red (#CC0000) for highlights/warnings, Green (#009900) for success/posting, Orange (#FF9900) for optional steps
 - Hand-drawn marker aesthetic with slightly imperfect lines
 - 16:9 landscape orientation
 - NOT photorealistic, NOT grayscale, NOT 3D
-
+- Use DASHED/DOTTED lines for optional steps, SOLID lines for required steps
+- Use ARROWS between each step showing flow direction
 DO NOT create grayscale images, stock photos, or generic infographics.
