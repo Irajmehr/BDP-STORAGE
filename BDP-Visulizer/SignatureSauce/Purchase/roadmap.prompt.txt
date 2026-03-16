@@ -1,85 +1,83 @@
-Create a PROFESSIONAL INFOGRAPHIC DIAGRAM titled "Purchase System Roadmap" for Inecta Food ERP — Signature Sauces.
+Create a PROFESSIONAL INFOGRAPHIC DIAGRAM for Inecta Food ERP Purchase System.
 
-This is a MASTER OVERVIEW showing the complete purchase process flow with visual icons for each step and branching connections to sub-processes.
+This is a MASTER OVERVIEW showing the complete purchase-to-payment flow with visual icons and branching connections to sub-processes.
 
-LAYOUT: Horizontal flow, left-to-right, 16:9 landscape, clean modern infographic style.
+LAYOUT: Horizontal flow, left-to-right, 16:9 landscape, clean modern infographic style. NO title text (title is shown by the app).
 
 ═══════════════════════════════════════════════════════════
-CENTRAL BACKBONE (large, prominent, flowing left to right with CHEVRON ARROWS between steps, like the SAP purchasing overview):
+CENTRAL BACKBONE — 5 major steps flowing left to right with CHEVRON ARROWS (gold-to-orange gradient) between them:
 
 STEP 1: "Purchase Order"
-- Icon: clipboard with checkmark
+- Icon: clipboard document with lines
 - Color: Blue (#3498DB)
-- Label below: "Create PO for ingredients"
-- Small text: "200 KG IQF Cherries"
+- Below: "Tomato Ketchup (drums), Rice Starch (bags), IQF Cherries (cases)"
 
-STEP 2: "Release & Ship"
-- Icon: delivery truck
-- Color: Orange (#E67E22)
-- Label below: "Vendor ships goods"
-- Small text: "From Valley Fruit Farms"
-
-STEP 3: "Warehouse Receipt"
-- Icon: warehouse shelves with boxes
+STEP 2: "Warehouse Receipt"
+- Icon: warehouse building with open dock door, truck arriving
 - Color: Purple (#8E44AD)
-- Label below: "Receive & verify at dock"
-- Small text: "Cold Storage / FREEZE-01"
+- Below: "Receive & verify at dock"
+
+STEP 3: "Put-Away"
+- Icon: warehouse shelves with boxes being placed on shelf
+- Color: Purple (#7D3C98)
+- Below: "Move to storage bin"
+- Show dashed border (optional step — not all companies use put-away)
 
 STEP 4: "Invoice & Post"
-- Icon: calculator/invoice document
+- Icon: calculator/invoice document with checkmark
 - Color: Green (#27AE60)
-- Label below: "Post receipt & invoice"
-- Small text: "ILE + Value Entry + G/L"
+- Below: "Post receipt & invoice"
 
-STEP 5: "Payment"
-- Icon: coins/money stack
-- Color: Gold (#F1C40F)
-- Label below: "Pay vendor"
-- Small text: "Vendor Ledger Entry"
-
-Each step connected by large CHEVRON ARROWS (gold/orange gradient) like the SAP example.
-═══════════════════════════════════════════════════════════
-
-BRANCH CONNECTIONS (smaller bubbles/cards below and above the central flow, connected by lines):
-
-ABOVE THE FLOW (feeds INTO the PO):
-┌─ "Blanket PO" (green) — annual sugar contract, scheduled releases
-├─ "Recurring PO" (teal) — weekly produce auto-orders
-├─ "Pricing" (gold) — volume tiers, auto price selection
-└─ "Purchase Quote" (gray, dashed) — optional starting point
-
-AT THE PO STEP (connects to PO creation):
-├─ "Alt UOM" (purple) — DRUM→KG conversion for vinegar
-└─ "Lot Tracking" (orange) — assign lot, COO, USDA grade for ketchup
-
-AT RELEASE/SHIP STEP:
-└─ "TMS" (red) — Transportation Order with freight charges
-
-AT WAREHOUSE STEP:
-└─ "Catch Weight" (blue) — actual drum weight varies from nominal
-
-BELOW THE FLOW (special paths):
-├─ "Drop Shipment" (purple) — vendor ships direct to customer (bypasses warehouse)
-└─ "Traceability" (teal) — trace PO→ILE→VLE→G/L (audit trail)
+STEP 5: "Ledger Entries"
+- Icon: stacked ledger books / financial chart
+- Color: Dark Green (#1E8449)
+- Below: "ILE → Value Entry → G/L"
 
 ═══════════════════════════════════════════════════════════
 
-HEADER: "Purchase System Roadmap — Signature Sauces"
-SUBTITLE: "Cherry Balsamic BBQ Sauce • 18 Raw Materials • 8 Vendors"
+BRANCH CONNECTIONS (smaller bubbles connected by lines to the main flow):
 
-FOOTER: "Inecta Food ERP — Business Central" (small, bottom right)
+ABOVE THE FLOW (feeds INTO the PO, shown above Step 1):
+┌─ "Blanket PO" (green bubble) — annual contracts
+├─ "Recurring PO" (teal bubble) — auto weekly orders
+└─ "Purchase Quote" (gray, dashed border) — optional
+
+AT STEP 1 (PO creation, branches off):
+├─ "Alt UOM" (purple) — DRUM→KG, vendor units vs base units
+└─ "Lot Tracking" (orange) — lot assignment, COO, grade, catch-weight
+
+BETWEEN STEP 1 AND STEP 2 (at release):
+└─ "TMS" (red) — Transportation Order, freight charges, landed cost
+
+BELOW STEP 2 (special flow):
+└─ "Drop Shipment" (purple) — vendor ships direct to customer, bypasses warehouse
+
+BELOW STEP 5 (after posting):
+└─ "Traceability" (teal) — PO→ILE→VLE→G/L audit trail, Navigate function
+
+═══════════════════════════════════════════════════════════
+
+PRODUCT EXAMPLES shown at bottom or integrated into steps:
+- Tomato Ketchup in 55-gallon drums (catch-weight)
+- Rice Starch in 25 KG bags
+- IQF Sweet Cherries in 10 KG cases
+- Balsamic Vinegar in 50L drums
+
+DO NOT show "BBQ Sauce" or finished goods. This is about PURCHASING raw ingredients only.
+
+═══════════════════════════════════════════════════════════
 
 STYLE:
 - CLEAN, MODERN INFOGRAPHIC — NOT hand-drawn whiteboard
-- Use FLAT DESIGN with subtle shadows
-- GRADIENT CHEVRON ARROWS between main steps (gold-to-orange, like the SAP example)
-- Each main step in a rounded rectangle with an ICON ILLUSTRATION above it
+- Use FLAT DESIGN with subtle shadows and rounded corners
+- GRADIENT CHEVRON ARROWS between main steps (gold-to-orange)
+- Each main step in a large rounded rectangle with an ICON ILLUSTRATION above
 - Branch connections use thin colored lines with small rounded labels
 - WHITE BACKGROUND with plenty of whitespace
-- Professional corporate presentation quality
-- 16:9 landscape (1280x720 equivalent proportions)
-- Color palette: Blues, oranges, greens, purples — Inecta corporate
-- Icons should be simple flat illustrations (not emoji, not 3D)
-- Each branch label should have a small colored dot matching its process color
+- Professional corporate presentation quality (McKinsey/SAP style)
+- Icons should be simple flat illustrations (not emoji, not 3D, not photorealistic)
+- Color-coded branches matching their process theme
+- Dashed lines for optional steps (Put-Away, Purchase Quote)
 
-DO NOT make this look hand-drawn or sketchy. Make it look like a professional corporate infographic or slide deck diagram. Think McKinsey or SAP presentation quality.
+DO NOT include any title text at the top. The app provides the title.
+DO NOT mention BBQ Sauce or Cherry Balsamic or finished goods.
