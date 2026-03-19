@@ -195,16 +195,29 @@ Netlify Pro ($19/mo) supports site-wide password protection. Add to `netlify.tom
 | Tutorial videos | Yes | Public content |
 | Simulation audio (TTS) | Yes | UUID-obscured, not sensitive |
 | Avatar images (AI-generated) | Yes | Not personal data |
+| PDF court form templates | Yes | Standard government forms (publicly available) |
+| **DOCX court form templates** | **NO** | Contains AI-enhanced form fields — serve via authenticated API only |
+| **Filled/completed forms** | **NO** | Contains case-specific PII — serve via authenticated API only |
 | Client documents (PDFs) | **NO** | Serve through authenticated API |
 | Confidential evidence | **NO** | Backend storage only |
 | PII (names, addresses) | **NO** | Database only |
 | API keys, credentials | **NEVER** | Environment variables |
 
+### Court Form Template Security (Updated 2026-03-19)
+
+**PDF templates** are standard Ontario government forms available from `ontariocourtforms.on.ca`. These are public and stored on CDN at `litcasepro/form-templates/{category}/`.
+
+**DOCX templates** contain AI-enhanced OOXML form fields (`w:ffData` elements with intelligent field descriptions, validation rules, and legal context). These are **proprietary** and must NOT be on CDN. They are served only through authenticated backend API: `GET /api/forms/templates/:id/preview?type=docx&token={JWT}`.
+
+**CRITICAL NOTE:** When a user fills out a DOCX form and downloads it, the AI form field metadata MUST be stripped from the output document before delivery. The user should receive a clean document with filled values only — no `w:fldChar`, `w:ffData`, or `w:instrText` elements. This is an **outstanding pre-launch task** documented in Blueprint 32.
+
 ### GitHub Repo Visibility
 
-The `BDP-STORAGE` repo is **public**. This is fine because:
+The `BDP-STORAGE` repo is **public**. This is acceptable because:
 - Audio files are TTS-generated speech (not private recordings)
 - Videos are tutorial walkthroughs (intended to be public)
+- PDF form templates are standard government forms (publicly available)
+- **DOCX templates are NOT in this repo** (removed 2026-03-19)
 - File paths use UUIDs not descriptive names
 
 If you need the repo private, go to GitHub > Settings > Danger Zone > Change visibility. Netlify CLI deploys from local regardless.
